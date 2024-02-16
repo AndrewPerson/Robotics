@@ -26,11 +26,6 @@ long getUltrasoundDistance(int trigPin, int echoPin)
   return cm;
 }
 
-bool getSwitchPressed(int pin)
-{
-  
-}
-
 void setup()
 {
   Serial.begin(9600);
