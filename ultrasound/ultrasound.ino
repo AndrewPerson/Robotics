@@ -2,7 +2,7 @@ const int trigPin = 9;
 const int echoPin = 10;
 const int LEDPin = 3;
 
-const float speedOfSound = 0.0343; // Speed of sound in cm/micro second
+const float speedOfSound = 0.034282; // Speed of sound in cm/micro second
 
 // Returns in centimetres
 long getUltrasoundDistance(int trigPin, int echoPin)
